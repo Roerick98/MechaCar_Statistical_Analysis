@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Deliverable 1 -----
 
 library(dplyr)
@@ -24,9 +23,3 @@ t.test(subset(suspension_table,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
 t.test(subset(suspension_table,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
 
 t.test(subset(suspension_table,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
-=======
-library(dplyr)
-car_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
-
-lm()
->>>>>>> f09bad2c745912f00e0eba8ec3fcd71df2d9139f
